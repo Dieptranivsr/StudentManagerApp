@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_quanly"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/quanlylop" />
+<!--        <item-->
+<!--            android:id="@+id/callAStudent"-->
+<!--            android:icon="@drawable/call"-->
+<!--            android:title="@string/goidienchohs" />-->
+<!--        <item-->
+<!--            android:id="@+id/sendMail"-->
+<!--            android:icon="@drawable/light"-->
+<!--            android:title="@string/emailToStudent" />-->
+<!--        <item-->
+<!--            android:id="@+id/sendMess"-->
+<!--            android:icon="@drawable/mess"-->
+<!--            android:title="@string/nhantinchohs" />-->
+
+
+<!--        <item-->
+<!--            android:id="@+id/nav_product"-->
+<!--            android:icon="@drawable/ic_menu_slideshow"-->
+<!--            android:title="@string/menu_product" />-->
+    </group>
+</menu>
